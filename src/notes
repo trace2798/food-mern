@@ -1,0 +1,34 @@
+redux
+install -> stores folder -> rootReducer.js and rootStore.js -> cartSlice.js => then add Provider on index.js -> productsSlice.js => 
+
+redux trunk will help was make our actions asynchronously.
+
+hook name should always start with use 
+// menu working part
+{/* {
+                        products && products.map((menuCategory, index) => {
+                            return (
+                                <>
+                                <h2>{menuCategory.data.name.name}</h2>
+                                <div className='products-list'>
+                                    {
+                                        menuCategory.data.products.map((product, index) => {
+                                            return(
+                                                <div className='text-white'>
+                                                    {product.name}
+                                                </div>
+                                            )
+                                        })
+                                    }
+                                </div>
+                                </>
+                            )
+                        })
+                    } */}
+Redux Notes: 
+What is state in redux?
+In Redux, a state is an object that stores the current state of your application. It represents the single source of truth for the data in your application. The state of your application is made up of small pieces of data, which are called "state variables." These state variables hold the current values for different parts of your application. For example, in a to-do list application, the state might store the current list of to-do items, as well as the text of the current item being edited.
+
+In Redux, the state of the application is managed by a store. The store is responsible for holding the current state of the application, and for dispatching actions to modify the state. When an action is dispatched, the store sends the action to a reducer function, which calculates the new state of the application based on the action and the current state. The new state is then stored in the store, and the store sends an action to all of the components that are subscribed to it, informing them that the state has changed and they should update themselves to reflect the new state.
+
+The idea behind Redux is to make the state of an application more predictable and easier to understand. By centralizing the management of the state in a single store, and by using reducer functions to calculate the new state based on actions, it becomes easier to understand how the state of the application changes over time, and to debug any issues that may arise.
