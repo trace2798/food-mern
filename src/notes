@@ -25,6 +25,7 @@ hook name should always start with use
                             )
                         })
                     } */}
+                    
 Redux Notes: 
 What is state in redux?
 In Redux, a state is an object that stores the current state of your application. It represents the single source of truth for the data in your application. The state of your application is made up of small pieces of data, which are called "state variables." These state variables hold the current values for different parts of your application. For example, in a to-do list application, the state might store the current list of to-do items, as well as the text of the current item being edited.
